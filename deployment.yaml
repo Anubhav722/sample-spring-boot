@@ -15,7 +15,7 @@ spec:
         app: hello-anubhav-docker
     spec:
       containers:
-        - image: gcr.io/disco-plane-327514/hello-anubhav-docker
+        - image: gcr.io/disco-plane-327514/hello-anubhav-docker:0.0.1
           name: hello-anubhav-docker-container
           imagePullPolicy: Always
           ports:
